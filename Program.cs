@@ -171,7 +171,7 @@ class Program
     {
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("\n╔═══════════════════════════════════════════════════════════════════════════╗");
-        Console.WriteLine("║  Thank you for using Freelance Management System!                        ║");
+        Console.WriteLine("║  Thank you for using Freelance Management System!                         ║");
         Console.WriteLine("║  Your data has been saved.                                                ║");
         Console.WriteLine("╚═══════════════════════════════════════════════════════════════════════════╝\n");
         Console.ResetColor();
