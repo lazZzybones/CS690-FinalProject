@@ -4,6 +4,8 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreelanceManagementSystem", "FreelanceManagementSystem.csproj", "{610A9FB9-87B3-92F3-BF87-6A4F6AB2720E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{9CF47860-2CEA-F379-09D8-9AEF27965D12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,11 +16,15 @@ Global
 		{610A9FB9-87B3-92F3-BF87-6A4F6AB2720E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{610A9FB9-87B3-92F3-BF87-6A4F6AB2720E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{610A9FB9-87B3-92F3-BF87-6A4F6AB2720E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF47860-2CEA-F379-09D8-9AEF27965D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF47860-2CEA-F379-09D8-9AEF27965D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF47860-2CEA-F379-09D8-9AEF27965D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF47860-2CEA-F379-09D8-9AEF27965D12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C130BEFE-D9FB-44FB-A27E-0EE00E05A53C}
+		SolutionGuid = {3FE64294-EC5C-483E-978E-1D0647811A8F}
 	EndGlobalSection
 EndGlobal

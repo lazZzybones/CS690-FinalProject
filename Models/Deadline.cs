@@ -1,4 +1,4 @@
-namespace FreelanceManagementSystem;
+namespace FreelanceManagementSystem.Models;
 
 public class Deadline
 {
@@ -36,9 +36,15 @@ public class Deadline
         return (DueDate - DateTime.Now).Days;
     }
 
+    public string GetStatusString()
+    {
+        if (IsCompleted) return "[COMPLETED]";
+        if (IsOverdue()) return $"[OVERDUE by {-GetDaysRemaining()} days]";
+        return $"[{GetDaysRemaining()} days left]";
+    }
+
     public override string ToString()
     {
-        string status = IsOverdue() ? "[OVERDUE]" : $"[{GetDaysRemaining()} days left]";
-        return $"{DueDate:yyyy-MM-dd} - {Description} {status}";
+        return $"{DueDate:yyyy-MM-dd} - {Description} {GetStatusString()}";
     }
 }
